@@ -24,6 +24,8 @@ import os
 if os.path.exists("env.py"):
     import env
 
+SECRET_KEY = os.environ.get("SECRET_KEY")
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
