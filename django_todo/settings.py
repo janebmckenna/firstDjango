@@ -28,7 +28,7 @@ if os.path.exists("env.py"):
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-janebmckenn-firstdjango-y0pd54dt6l8.ws-eu108.gitpod.io', 'jbk-djangotodo-0dc4cf879387.herokuapp.com']
+ALLOWED_HOSTS = ['jbk-djangotodo-0dc4cf879387.herokuapp.com']
 
 
 # Application definition
