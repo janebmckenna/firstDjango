@@ -33,7 +33,11 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = development
 
-ALLOWED_HOSTS = ['jbk-django-firstapp-d1718f15ffc0.herokuapp.com']
+
+if development:
+    ALLOWED_HOSTS = ['8000-janebmckenn-firstdjango-y0pd54dt6l8.ws-eu108.gitpod.io']
+else:
+    ALLOWED_HOSTS = ['jbk-django-firstapp-d1718f15ffc0.herokuapp.com']
 
 
 # Application definition
